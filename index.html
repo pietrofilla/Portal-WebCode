@@ -1,94 +1,90 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portal WebCode</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="script.js" defer></script>
+        <link rel="stylesheet" href="style.css">
+        <title>Portal WebCode</title>
+    </head>
+    <body>
 
-    <header class="cabecalho">
-        <h1>Portal WebCode</h1>
-        <p>Seu ponto de partida no Desenvolvimento Web</p>
-    </header>
+        <header class="cabecalho">
+            <h1>Portal WebCode</h1>
+        </header>
 
-    <nav class="nav">
-        <ul>
-            <li><a href="#html">HTML</a></li>
-            <li><a href="#css">CSS</a></li>
-            <li><a href="#js">JavaScript</a></li>
-            <li><a href="#midia">Mídia</a></li>
-        </ul>
-    </nav>
+        <nav class="menu">
+            <ul>
+                <li><a href="#html">HTML</a></li>
+                <li><a href="#css">CSS</a></li>
+                <li><a href="#js">JavaScript</a></li>
+                <li><a href="#midia">Mídia</a></li>
+            </ul>
+        </nav>
 
-    <main class="container">
-        
-        <section class="grid">
+        <main class="container">
             
-            <article class="card" id="html">
-                <h2>HTML5</h2>
-                <p>A Linguagem de Marcação de Hipertexto é a base de qualquer site.
-                     É com ela que definimos a estrutura e a semântica do conteúdo.</p>
-                <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" 
-                target="_blank" class="link">Aprender mais</a>
-            </article>
-
-            <article class="card" id="css">
-                <h2>CSS3</h2>
-                <p>As Folhas de Estilo em Cascata são responsáveis pelo design.
-                     Com CSS controlamos cores, fontes, layouts modernos (Flexbox/Grid) e responsividade.</p>
-                <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" 
-                target="_blank" class="link">Aprender mais</a>
-            </article>
-
-            <article class="card" id="js">
-                <h2>JavaScript</h2>
-                <p>JavaScript é a linguagem de programação que adiciona comportamento e dinamismo às páginas,
-                     permitindo criar interações complexas.</p>
-                <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank" 
-                class="link">Aprender mais</a>
-            </article>
-
-        </section>
-
-        <section class="section" id="midia">
-            
-            <article class="js">
-                <h2>Laboratório Interativo (JS)</h2>
-                <p id="texto">Este é um texto original.
-                     Clique nos botões abaixo para ver a mágica acontecer!</p>
+            <section class="grid">
                 
-                <aside class="aside">
-                    <h3>Ações Disponíveis:</h3>
-                    <div class="botoes">
-                        <button id="mudar-texto">Alterar Texto</button>
-                        <button id="console">Disparar Console</button>
-                        <button id="alerta">Exibir Alerta</button>
+                <article class="card" id="html">
+                    <h2>HTML</h2>
+                    <p>A Linguagem de Marcação de Hipertexto é a base de qualquer site.
+                        É com ela que definimos a estrutura e a semântica do conteúdo.</p>
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" 
+                    target="_blank" class="link">Aprender mais</a>
+                </article>
+
+                <article class="card" id="css">
+                    <h2>CSS</h2>
+                    <p>As Folhas de Estilo em Cascata são responsáveis pelo design.
+                        Com CSS controlamos cores, fontes, layouts modernos (Flexbox/Grid) e responsividade.</p>
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" 
+                    target="_blank" class="link">Aprender mais</a>
+                </article>
+
+                <article class="card" id="js">
+                    <h2>JavaScript</h2>
+                    <p>JavaScript é a linguagem de programação que adiciona comportamento e dinamismo às páginas,
+                        permitindo criar interações complexas.</p>
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank" 
+                    class="link">Aprender mais</a>
+                </article>
+            </section>
+
+            <section class="section" id="midia">
+                
+                <article class="js">
+                    <h2>Laboratório Interativo (JS)</h2>
+                    <p id="texto">Este é um texto original.
+                        Clique nos botões abaixo para ver a mágica acontecer!</p>
+                    
+                    <aside class="aside">
+                        <h3>Ações Disponíveis:</h3>
+                        <div class="botoes">
+                            <button id="mudar-texto">Alterar Texto</button>
+                            <button id="console">Disparar Console</button>
+                            <button id="alerta">Exibir Alerta</button>
+                        </div>
+                    </aside>
+                </article>
+
+                <article class="video-container">
+                    <h2>Recursos Visuais</h2>
+                    <div class="video">
+                        <iframe src="https://www.youtube.com/embed/Ejkb_YpuHWs" 
+                        title="Introdução Web" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+                        gyroscope; picture-in-picture" 
+                        allowfullscreen></iframe>
                     </div>
-                </aside>
-            </article>
+                </article>
 
-            <article class="video-container">
-                <h2>Recursos Visuais</h2>
-                <p>Assista a uma introdução prática sobre como a web funciona:</p>
-                <div class="video">
-                    <iframe src="https://www.youtube.com/embed/Ejkb_YpuHWs" 
-                    title="Introdução Web" frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media;
-                     gyroscope; picture-in-picture" 
-                    allowfullscreen></iframe>
-                </div>
-            </article>
+            </section>
 
-        </section>
+        </main>
 
-    </main>
-
-    <footer class="rodape">
-        <p>2026 Portal WebCode - Facilitando o futuro do desenvolvimento.</p>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-</html>
+        <footer class="rodape">
+            <p>2026 Portal WebCode - Facilitando seu aprendizado no desenvolvimento web.</p>
+        </footer>
+    </body>
+    </html>
