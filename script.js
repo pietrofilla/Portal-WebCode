@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     botaoAlerta.addEventListener("click", () => {
         alert("Olá, Estudante! \n\nParabéns por testar os recursos visuais e interativos do Portal WebCode. Continue estudando!");
+        window.location.href="https://www.youtube.com/";
     });
 
 });
